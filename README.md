@@ -1,23 +1,3 @@
-# Notas sobre el tracking de registros escritos en jobs particionados
-
-En este proyecto, al usar particionamiento con Spring Batch, se observó que el contador interno de registros escritos (`writeCount`) en los steps workers y en el resumen del job puede permanecer en 0, incluso cuando los datos válidos sí se insertan correctamente en la base de datos.
-
-Esto ocurre porque, en escenarios avanzados de particionamiento y wiring personalizado, el tracking interno de Spring Batch no siempre refleja los inserts reales, aunque el procesamiento y la escritura funcionen correctamente.
-
-**¿Cómo se validó la correcta inserción?**
-
-- Se agregó un log explícito en el writer (`loggingTransaccionWriter`) que imprime en consola cada vez que se escribe un chunk y los IDs de las transacciones insertadas.
-- Se comprobó que los IDs mostrados en el log coinciden exactamente con los datos insertados en la base de datos.
-
-**¿Por qué se insertó el log en el writer?**
-
-- Para tener una trazabilidad real y confiable de los registros escritos por cada partición, independientemente del contador interno de Spring Batch.
-- Esto permite validar que el procesamiento y la escritura son correctos, aunque el resumen del job muestre 'Total escritos (válidos): 0'.
-
-**Conclusión:**
-
-El job funciona correctamente y cumple con los requerimientos de procesamiento, validación y escritura en la base de datos. El log en el writer es la fuente confiable para auditar los registros escritos en escenarios de particionamiento avanzado.
-
 # Banco XYZ - Migración de Procesos Batch con Spring Batch
 
 ## 🚀 Objetivo
@@ -164,6 +144,26 @@ El diseño incorpora **particionamiento** para dividir grandes volúmenes de dat
 - **Deadlocks en DB**: Asegúrate de que transacciones sean cortas; usa `PlatformTransactionManager` para rollback.
 - **Logs No Aparecen**: Verifica configuración de SLF4J/Logback en `application.properties`.
 - **Paralelismo No Funciona**: Confirma que `TaskExecutor` esté configurado y `gridSize > 1`.
+
+  # Notas sobre el tracking de registros escritos en jobs particionados
+
+En este proyecto, al usar particionamiento con Spring Batch, se observó que el contador interno de registros escritos (`writeCount`) en los steps workers y en el resumen del job puede permanecer en 0, incluso cuando los datos válidos sí se insertan correctamente en la base de datos.
+
+Esto ocurre porque, en escenarios avanzados de particionamiento y wiring personalizado, el tracking interno de Spring Batch no siempre refleja los inserts reales, aunque el procesamiento y la escritura funcionen correctamente.
+
+**¿Cómo se validó la correcta inserción?**
+
+- Se agregó un log explícito en el writer (`loggingTransaccionWriter`) que imprime en consola cada vez que se escribe un chunk y los IDs de las transacciones insertadas.
+- Se comprobó que los IDs mostrados en el log coinciden exactamente con los datos insertados en la base de datos.
+
+**¿Por qué se insertó el log en el writer?**
+
+- Para tener una trazabilidad real y confiable de los registros escritos por cada partición, independientemente del contador interno de Spring Batch.
+- Esto permite validar que el procesamiento y la escritura son correctos, aunque el resumen del job muestre 'Total escritos (válidos): 0'.
+
+**Conclusión:**
+
+El job funciona correctamente y cumple con los requerimientos de procesamiento, validación y escritura en la base de datos. El log en el writer es la fuente confiable para auditar los registros escritos en escenarios de particionamiento avanzado.
 
 ---
 Desarrollado por luciano1633 para Banco XYZ.
