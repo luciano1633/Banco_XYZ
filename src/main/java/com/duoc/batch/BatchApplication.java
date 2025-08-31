@@ -21,7 +21,12 @@ public class BatchApplication implements CommandLineRunner {
     private Map<String, Job> jobs;
 
     public static void main(String[] args) {
-        SpringApplication.run(BatchApplication.class, args);
+    // Forzamos el cierre de la JVM al finalizar el job porque, en este proyecto, algunos threads de pools, JDBC y recursos internos
+    // (por ejemplo: Batch-Thread-1, HikariPool-1:housekeeper, OJDBC-WORKER-THREAD-1) pueden quedar abiertos tras finalizar el job,
+    // impidiendo que la JVM termine sola. El cierre forzado garantiza que el proceso finalice correctamente y puedas ejecutar otros jobs en secuencia.
+        var ctx = SpringApplication.run(BatchApplication.class, args);
+        int exitCode = SpringApplication.exit(ctx);
+        System.exit(exitCode);
     }
 
    @Override
@@ -38,7 +43,7 @@ public void run(String... args) throws Exception {
                 jobLauncher.run(job, jobParameters);
                 jobLaunched = true;
             } else {
-                System.out.println("Job not found: " + jobName);
+                    System.err.println("Job no encontrado: " + jobName);
             }
         }
     }
@@ -54,5 +59,6 @@ public void run(String... args) throws Exception {
             System.out.println("Job not found: importTransaccionJob");
             }
         }
+     
     }   
 }

@@ -1,6 +1,7 @@
 package com.duoc.batch.processor;
 
 import com.duoc.batch.model.Transaccion;
+import com.duoc.batch.model.InvalidDataException;
 import org.springframework.batch.item.ItemProcessor;
 
 public class TransaccionItemProcessor implements ItemProcessor<Transaccion, Transaccion> {
@@ -9,20 +10,18 @@ public class TransaccionItemProcessor implements ItemProcessor<Transaccion, Tran
     public Transaccion process(final Transaccion transaccion) throws Exception {
         // Validación de fecha
         if (transaccion.getFecha() == null) {
-            System.out.println("Descartada: Fecha inválida o faltante para id: " + transaccion.getId());
-            return null;
+            throw new InvalidDataException("Fecha inválida o faltante para id: " + transaccion.getId());
         }
 
         // Validación de monto
-        if (transaccion.getMonto() == null) {
-            System.out.println("Descartada: Monto inválido o faltante para id: " + transaccion.getId());
-            return null;
+        if (transaccion.getMonto() == null || transaccion.getMonto() <= 0) {
+            throw new InvalidDataException("Monto inválido (nulo, cero o negativo) para id: " + transaccion.getId());
         }
 
         // Validación de tipo
         String tipo = transaccion.getTipo();
         if (tipo == null || (!tipo.equals("credito") && !tipo.equals("debito"))) {
-            System.out.println("Descartada: Tipo inválido para id: " + transaccion.getId());
+            // Filtra el registro, no lo considera error grave
             return null;
         }
 

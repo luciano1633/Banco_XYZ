@@ -1,6 +1,7 @@
 package com.duoc.batch.processor;
 
 import com.duoc.batch.model.CuentaInteres;
+import com.duoc.batch.model.InvalidDataException;
 import org.springframework.batch.item.ItemProcessor;
 
 public class CuentaInteresItemProcessor implements ItemProcessor<CuentaInteres, CuentaInteres> {
@@ -9,19 +10,22 @@ public class CuentaInteresItemProcessor implements ItemProcessor<CuentaInteres, 
     public CuentaInteres process(final CuentaInteres cuenta) throws Exception {
         // Validar saldo
         if (cuenta.getSaldo() == null || cuenta.getSaldo() < 0) {
-            System.out.println("Descartada: Saldo inválido o faltante para cuenta_id: " + cuenta.getCuentaId());
-            return null;
+            throw new InvalidDataException("Saldo inválido o faltante para cuenta_id: " + cuenta.getCuentaId());
         }
         // Validar tipo
         String tipo = cuenta.getTipo();
         if (tipo == null || (!tipo.equals("ahorro") && !tipo.equals("prestamo"))) {
-            System.out.println("Descartada: Tipo inválido para cuenta_id: " + cuenta.getCuentaId());
-            return null;
+            throw new InvalidDataException("Tipo inválido para cuenta_id: " + cuenta.getCuentaId());
         }
         // Validar nombre
         String nombre = cuenta.getNombre();
         if (nombre == null || nombre.isBlank() || nombre.equalsIgnoreCase("unknown") || nombre.equals("-1")) {
-            System.out.println("Descartada: Nombre inválido para cuenta_id: " + cuenta.getCuentaId());
+            throw new InvalidDataException("Nombre inválido para cuenta_id: " + cuenta.getCuentaId());
+        }
+
+        // Validar edad
+        Integer edad = cuenta.getEdad();
+        if (edad == null || edad < 18 || edad > 150) {
             return null;
         }
 

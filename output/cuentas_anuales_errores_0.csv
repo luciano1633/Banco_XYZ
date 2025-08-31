@@ -1,0 +1,546 @@
+cuentaId;fecha;transaccion;monto;descripcion
+110;2024-07-24;retiro;1500.0;
+120;2024-04-11;compra;;Ingreso mensual
+120;2024-02-26;compra;1000.0;
+102;2024-12-18;compra;3000.0;
+106;2024-02-12;deposito;-100.0;Ingreso navideño
+110;2024-11-13;compra;-500.0;Ingreso mensual
+102;2024-04-19;deposito;2000.0;
+102;2024-09-30;depósito;2000.0;Ingreso navideño
+119;2024-07-25;retiro;-500.0;Ingreso mensual
+103;2024-08-11;pago;1000.0;Compra en tienda
+111;2024-03-10;retiro;-500.0;Retiro parcial
+117;2024-01-11;deposito;-1000.0;Ingreso extra
+109;2024-11-20;retiro;-1000.0;Retiro parcial
+113;2024-01-25;deposito;-500.0;Ingreso navideño
+109;2024-10-15;retiro;-500.0;Ingreso extra
+109;2024-11-27;deposito;2000.0;
+118;2024-09-01;retiro;-100.0;Ingreso navideño
+105;2024-01-17;compra;-500.0;Ingreso mensual
+111;2024-07-19;compra;-100.0;Compra en tienda
+111;2024-09-25;depósito;2000.0;Ingreso navideño
+107;2024-02-29;deposito;-500.0;
+102;2024-11-05;retiro;;Ingreso navideño
+109;2024-03-09;deposito;3000.0;
+104;2024-11-01;retiro;-500.0;Ingreso navideño
+104;2024-02-02;retiro;-100.0;Ingreso mensual
+113;2024-05-02;retiro;-100.0;Retiro parcial
+109;2024-07-05;retiro;-500.0;Compra en tienda
+116;2024-06-25;retiro;2000.0;
+110;2024-02-15;deposito;0.0;Compra en tienda
+109;2024-11-26;retiro;2000.0;
+118;2024-05-19;retiro;2000.0;
+104;2024-07-31;deposito;;Compra en tienda
+117;2024-01-12;retiro;;Ingreso extra
+107;2024-09-28;retiro;-500.0;Ingreso extra
+118;2024-12-09;retiro;3000.0;
+101;2024-02-16;compra;-100.0;Retiro parcial
+110;2024-02-11;compra;-100.0;Ingreso extra
+118;2024-03-05;retiro;0.0;Ingreso navideño
+106;2024-08-29;pago;2000.0;
+119;2024-06-11;compra;-500.0;
+105;2024-04-01;depósito;1000.0;Retiro parcial
+116;2024-02-09;deposito;-100.0;
+114;2024-02-20;depósito;3000.0;Compra en tienda
+113;2024-04-27;retiro;3000.0;
+102;2024-11-23;deposito;1000.0;
+112;2024-03-08;retiro;2500.0;
+117;2024-05-18;deposito;;Ingreso mensual
+112;2024-10-17;retiro;-500.0;Retiro parcial
+108;2024-01-05;pago;-500.0;Retiro parcial
+116;2024-08-02;compra;-500.0;Compra en tienda
+105;2024-06-04;pago;-500.0;Ingreso extra
+119;2024-03-24;compra;1500.0;
+103;2024-09-24;retiro;-500.0;Ingreso extra
+116;2024-08-09;compra;-500.0;Ingreso extra
+114;2024-04-14;depósito;2000.0;
+118;2024-08-04;compra;3000.0;
+106;2024-08-27;deposito;2500.0;
+120;2024-05-24;retiro;-500.0;Compra en tienda
+107;2024-01-28;retiro;1500.0;
+102;2024-11-24;retiro;-100.0;Retiro parcial
+106;2024-10-23;compra;-500.0;Ingreso navideño
+106;2024-08-31;compra;2500.0;
+119;2024-05-21;retiro;1500.0;
+103;2024-07-12;deposito;;
+120;2024-12-17;retiro;1500.0;
+120;2024-12-28;retiro;-500.0;Ingreso navideño
+106;2024-11-20;pago;-100.0;Ingreso extra
+109;2024-11-12;compra;-100.0;Ingreso navideño
+103;2024-03-15;compra;5000.0;
+107;2024-12-30;retiro;-500.0;
+114;2024-10-16;retiro;;Ingreso mensual
+110;2024-06-22;pago;2000.0;
+105;2024-10-26;compra;-1000.0;Ingreso extra
+103;2024-10-29;compra;2500.0;
+104;2024-09-06;retiro;-500.0;
+118;2024-08-13;deposito;-500.0;
+113;2024-09-30;deposito;-500.0;Ingreso extra
+106;2024-11-26;pago;1500.0;Retiro parcial
+116;2024-04-19;pago;1500.0;Ingreso navideño
+117;2024-06-25;deposito;2500.0;
+106;2024-04-03;retiro;2000.0;
+114;2024-07-04;compra;-100.0;
+109;2024-11-10;retiro;2500.0;
+116;2024-06-17;depósito;1500.0;Ingreso navideño
+109;2024-05-20;compra;-500.0;Compra en tienda
+107;2024-09-26;compra;-100.0;
+105;2024-09-09;compra;-500.0;Compra en tienda
+114;2024-10-30;retiro;0.0;Compra en tienda
+115;2024-10-25;deposito;0.0;Ingreso mensual
+107;2024-11-26;depósito;-500.0;Compra en tienda
+119;2024-02-18;pago;1000.0;Ingreso extra
+112;2024-12-16;compra;-100.0;Ingreso mensual
+117;2024-02-01;retiro;-100.0;
+107;2024-12-06;depósito;2500.0;Retiro parcial
+114;2024-10-20;compra;-100.0;Ingreso navideño
+117;2024-11-17;depósito;3000.0;Ingreso mensual
+104;2024-03-01;retiro;-500.0;Ingreso extra
+102;2024-12-28;retiro;-500.0;Compra en tienda
+109;2024-09-11;depósito;-100.0;Ingreso extra
+107;2024-07-02;depósito;2500.0;
+101;2024-07-09;retiro;-1000.0;Ingreso mensual
+114;2024-07-09;compra;-500.0;
+115;2024-02-22;pago;3000.0;
+119;2024-07-11;deposito;2500.0;
+117;2024-09-27;pago;3000.0;Ingreso extra
+108;2024-08-16;deposito;-100.0;Compra en tienda
+106;2024-12-16;deposito;2500.0;
+108;2024-12-20;compra;-100.0;Ingreso navideño
+106;2024-02-22;retiro;-500.0;Compra en tienda
+117;2024-02-15;retiro;-100.0;Compra en tienda
+107;2024-07-01;deposito;-100.0;Retiro parcial
+107;2024-03-21;deposito;;Compra en tienda
+113;2024-12-04;deposito;-500.0;
+115;2024-11-17;compra;-500.0;Ingreso extra
+107;2024-03-07;deposito;3000.0;
+118;2024-04-12;compra;-500.0;Compra en tienda
+120;2024-02-14;deposito;2500.0;
+111;2024-06-07;compra;1500.0;
+101;2024-10-16;deposito;-100.0;Retiro parcial
+115;2024-06-22;deposito;-500.0;Ingreso extra
+118;2024-08-25;deposito;-100.0;
+107;2024-12-08;compra;;Retiro parcial
+106;2024-10-19;deposito;;
+108;2024-12-12;compra;-100.0;Ingreso extra
+104;2024-07-10;compra;1500.0;
+103;2024-09-24;deposito;1500.0;
+105;2024-08-11;deposito;;Compra en tienda
+112;2024-04-01;compra;2500.0;
+108;2024-12-08;retiro;1500.0;
+108;2024-09-30;retiro;-500.0;
+102;2024-04-29;retiro;2000.0;
+119;2024-10-24;compra;2000.0;
+107;2024-03-18;compra;5000.0;
+108;2024-02-21;depósito;1500.0;Retiro parcial
+112;2024-07-05;depósito;1000.0;Compra en tienda
+112;2024-12-11;retiro;3000.0;
+110;2024-11-03;compra;-100.0;Ingreso extra
+108;2024-09-29;deposito;;Ingreso extra
+113;2024-12-28;deposito;2000.0;
+116;2024-11-02;depósito;2000.0;Ingreso mensual
+114;2024-05-30;compra;2500.0;
+113;2024-12-11;depósito;1500.0;Compra en tienda
+102;2024-03-11;deposito;-100.0;
+109;2024-01-21;depósito;2000.0;Ingreso navideño
+120;2024-02-03;retiro;2500.0;
+102;2024-11-01;compra;-100.0;Retiro parcial
+104;2024-08-08;compra;-100.0;Ingreso mensual
+106;2024-09-27;compra;-100.0;Ingreso mensual
+106;2024-05-04;compra;-500.0;Retiro parcial
+120;2024-03-04;compra;2500.0;
+116;2024-11-01;deposito;-100.0;Compra en tienda
+106;2024-09-03;compra;3000.0;
+101;2024-12-26;deposito;-100.0;
+109;2024-10-31;retiro;5000.0;
+111;2024-07-30;depósito;3000.0;Compra en tienda
+110;2024-11-15;compra;-100.0;Retiro parcial
+116;2024-01-17;retiro;-100.0;Ingreso navideño
+101;2024-02-04;depósito;2500.0;Compra en tienda
+106;2024-07-25;compra;1500.0;
+107;2024-08-11;retiro;-100.0;Ingreso extra
+119;2024-02-29;compra;;Ingreso mensual
+114;2024-02-21;pago;-500.0;Ingreso extra
+117;2024-08-26;depósito;3000.0;Ingreso mensual
+101;2024-03-07;retiro;-100.0;
+102;2024-12-24;pago;3000.0;Ingreso extra
+119;2024-07-27;retiro;-500.0;Compra en tienda
+116;2024-10-31;retiro;3000.0;
+101;2024-01-17;pago;-100.0;
+108;2024-06-30;compra;2500.0;
+109;2024-01-22;retiro;-100.0;
+108;2024-10-31;deposito;-500.0;Retiro parcial
+115;2024-07-12;compra;1500.0;
+115;2024-06-19;compra;2000.0;
+113;2024-06-13;deposito;-500.0;Ingreso mensual
+109;2024-02-12;compra;-100.0;Retiro parcial
+104;2024-03-19;retiro;-500.0;Ingreso extra
+104;2024-07-16;compra;1000.0;
+120;2024-12-21;compra;-500.0;Compra en tienda
+115;2024-12-22;retiro;-100.0;Ingreso mensual
+108;2024-09-22;retiro;-500.0;Ingreso extra
+111;2024-12-04;depósito;1000.0;Ingreso extra
+110;2024-07-08;retiro;2000.0;
+108;2024-03-12;deposito;-500.0;Ingreso mensual
+118;2024-09-01;compra;-100.0;Ingreso mensual
+112;2024-06-12;retiro;-500.0;Ingreso navideño
+119;2024-12-23;compra;-500.0;Ingreso navideño
+112;2024-07-17;retiro;-100.0;Ingreso mensual
+105;2024-12-17;retiro;;Retiro parcial
+115;2024-04-04;deposito;-100.0;Ingreso extra
+120;2024-07-10;compra;3000.0;
+109;2024-01-21;deposito;2000.0;
+118;2024-06-15;retiro;3000.0;
+103;2024-03-10;compra;3000.0;
+104;2024-07-17;compra;;Retiro parcial
+111;2024-05-04;deposito;;Ingreso navideño
+107;2024-08-08;compra;-500.0;Retiro parcial
+117;2024-11-01;deposito;;
+102;2024-05-23;pago;-500.0;Ingreso mensual
+120;2024-07-26;retiro;;Ingreso mensual
+114;2024-05-14;retiro;3000.0;
+102;2024-08-30;retiro;;Ingreso navideño
+103;2024-07-15;pago;3000.0;
+102;2024-08-03;pago;1000.0;
+110;2024-08-11;compra;-500.0;Compra en tienda
+112;2024-08-26;retiro;1500.0;
+107;2024-03-09;deposito;-500.0;Ingreso mensual
+107;2024-06-15;compra;;
+102;2024-02-14;retiro;3000.0;
+119;2024-10-24;depósito;1000.0;Ingreso navideño
+118;2024-03-26;compra;1500.0;
+110;2024-01-14;pago;1500.0;Retiro parcial
+109;2024-02-13;pago;-500.0;Ingreso extra
+114;2024-03-16;compra;;Retiro parcial
+103;2024-12-08;deposito;-500.0;Compra en tienda
+115;2024-12-28;deposito;2500.0;
+116;2024-04-05;compra;-500.0;Ingreso navideño
+107;2024-05-31;deposito;-100.0;Retiro parcial
+104;2024-11-05;pago;2000.0;Ingreso mensual
+109;2024-07-14;depósito;2000.0;Ingreso mensual
+101;2024-11-22;retiro;1000.0;
+106;2024-09-26;deposito;-500.0;Ingreso extra
+119;2024-10-18;retiro;-100.0;Compra en tienda
+102;2024-08-24;retiro;-500.0;Retiro parcial
+112;2024-01-20;retiro;5000.0;
+119;2024-07-01;deposito;2000.0;
+113;2024-03-09;compra;-100.0;Compra en tienda
+111;2024-10-31;retiro;-500.0;
+120;2024-04-15;pago;1000.0;Compra en tienda
+102;2024-05-26;pago;2500.0;Ingreso mensual
+107;2024-03-03;retiro;1500.0;
+118;2024-06-09;retiro;;Ingreso navideño
+105;2024-05-13;deposito;-100.0;Retiro parcial
+106;2024-01-29;deposito;2500.0;
+104;2024-06-24;retiro;1000.0;
+109;2024-08-30;deposito;3000.0;
+118;2024-11-14;retiro;-500.0;
+102;2024-10-04;compra;-500.0;Retiro parcial
+111;2024-01-25;depósito;2500.0;Compra en tienda
+117;2024-09-13;pago;1500.0;Ingreso extra
+102;2024-05-11;retiro;-100.0;Ingreso extra
+112;2024-05-30;pago;-100.0;Ingreso navideño
+103;2024-12-23;retiro;2500.0;
+120;2024-01-16;compra;2000.0;
+113;2024-09-08;deposito;-100.0;Ingreso navideño
+119;2024-08-17;compra;2500.0;
+120;2024-05-15;retiro;-500.0;Ingreso navideño
+110;2024-11-15;deposito;0.0;
+102;2024-10-06;retiro;-500.0;
+104;2024-08-09;compra;3000.0;
+116;2024-03-10;retiro;;Ingreso mensual
+119;2024-08-08;compra;1000.0;
+117;2024-04-25;compra;-100.0;Retiro parcial
+115;2024-11-24;retiro;1500.0;
+114;2024-06-08;retiro;2000.0;
+113;2024-10-29;deposito;2000.0;
+101;2024-08-24;compra;0.0;Compra en tienda
+104;2024-05-31;retiro;;
+115;2024-03-01;retiro;1000.0;
+110;2024-06-20;retiro;-500.0;Ingreso navideño
+115;2024-04-25;retiro;-100.0;Ingreso mensual
+102;2024-03-30;compra;3000.0;
+108;2024-11-21;deposito;-500.0;Ingreso navideño
+105;2024-04-20;retiro;-500.0;Retiro parcial
+110;2024-11-01;retiro;-500.0;Ingreso navideño
+108;2024-04-01;retiro;2500.0;
+120;2024-12-27;compra;-100.0;
+104;2024-07-07;deposito;-100.0;
+106;2024-08-27;depósito;2000.0;Compra en tienda
+113;2024-12-13;compra;;Ingreso navideño
+105;2024-07-01;compra;1500.0;
+117;2024-11-15;deposito;0.0;Ingreso navideño
+103;2024-10-11;deposito;2500.0;
+102;2024-10-20;depósito;3000.0;Ingreso extra
+102;2024-12-27;retiro;;Compra en tienda
+104;2024-08-13;retiro;-500.0;Ingreso mensual
+119;2024-09-19;retiro;-500.0;Ingreso navideño
+114;2024-11-03;retiro;2000.0;
+116;2024-04-04;compra;;Ingreso navideño
+109;2024-06-20;deposito;3000.0;
+106;2024-08-22;compra;-500.0;Ingreso mensual
+115;2024-10-24;retiro;1000.0;
+102;2024-10-01;compra;-500.0;Compra en tienda
+105;2024-04-10;retiro;-500.0;Retiro parcial
+115;2024-02-22;deposito;1500.0;
+106;2024-01-30;retiro;-500.0;Compra en tienda
+118;2024-06-19;deposito;3000.0;
+110;2024-03-24;compra;-100.0;Ingreso extra
+102;2024-05-18;compra;1000.0;
+102;2024-06-26;retiro;-100.0;Ingreso navideño
+101;2024-03-07;deposito;3000.0;
+112;2024-08-07;retiro;3000.0;
+112;2024-09-06;deposito;0.0;Compra en tienda
+118;2024-05-12;pago;-500.0;
+116;2024-11-14;deposito;3000.0;
+110;2024-03-07;retiro;-100.0;Retiro parcial
+116;2024-10-12;deposito;-100.0;Ingreso extra
+118;2024-01-19;retiro;1000.0;
+117;2024-09-04;retiro;5000.0;
+108;2024-06-21;retiro;2500.0;
+105;2024-07-04;deposito;1000.0;
+110;2024-08-05;deposito;1000.0;
+107;2024-04-03;retiro;-500.0;
+108;2024-11-17;deposito;-100.0;Ingreso mensual
+102;2024-03-13;compra;-100.0;Ingreso extra
+101;2024-04-20;compra;-100.0;Ingreso navideño
+114;2024-04-13;compra;-100.0;Ingreso extra
+105;2024-03-11;retiro;;Ingreso navideño
+105;2024-02-14;retiro;-100.0;Ingreso navideño
+112;2024-09-27;deposito;2000.0;
+119;2024-02-16;deposito;-500.0;Retiro parcial
+101;2024-04-08;retiro;-100.0;
+118;2024-08-01;deposito;2500.0;
+106;2024-12-11;deposito;-100.0;
+112;2024-10-16;retiro;-100.0;Ingreso navideño
+120;2024-08-06;deposito;-500.0;Retiro parcial
+105;2024-11-30;deposito;-500.0;Ingreso navideño
+103;2024-09-04;deposito;-500.0;Ingreso navideño
+115;2024-07-26;compra;-500.0;Retiro parcial
+104;2024-10-01;pago;-500.0;Retiro parcial
+109;2024-03-18;compra;-500.0;Ingreso extra
+118;2024-09-12;compra;-100.0;Retiro parcial
+111;2024-08-05;retiro;-100.0;Compra en tienda
+114;2024-08-10;deposito;-500.0;Retiro parcial
+109;2024-09-03;retiro;;Ingreso navideño
+115;2024-09-14;compra;-100.0;Ingreso mensual
+104;2024-04-02;retiro;-100.0;Ingreso mensual
+101;2024-01-17;retiro;-100.0;Compra en tienda
+118;2024-01-11;retiro;;
+102;2024-10-10;retiro;-100.0;Ingreso navideño
+106;2024-07-12;deposito;-100.0;Retiro parcial
+120;2024-02-27;retiro;5000.0;
+114;2024-09-16;compra;;Ingreso extra
+106;2024-08-31;compra;-100.0;Ingreso navideño
+103;2024-06-25;deposito;1500.0;
+106;2024-04-10;deposito;-500.0;
+114;2024-12-22;depósito;1500.0;Ingreso mensual
+105;2024-04-18;pago;3000.0;Retiro parcial
+114;2024-12-10;deposito;1500.0;
+105;2024-05-23;compra;-100.0;Ingreso extra
+105;2024-12-04;compra;1000.0;
+117;2024-08-02;deposito;-100.0;Compra en tienda
+104;2024-02-17;depósito;1500.0;Retiro parcial
+118;2024-02-18;deposito;2500.0;
+107;2024-05-08;compra;;Retiro parcial
+117;2024-11-17;depósito;1500.0;Retiro parcial
+103;2024-05-09;deposito;-500.0;Retiro parcial
+112;2024-03-15;compra;;Ingreso extra
+114;2024-10-10;compra;1500.0;
+103;2024-04-22;compra;-100.0;Compra en tienda
+107;2024-08-28;pago;-500.0;Retiro parcial
+104;2024-10-01;deposito;-100.0;
+112;2024-05-11;pago;1500.0;Ingreso navideño
+107;2024-10-31;retiro;-100.0;
+113;2024-09-13;retiro;;
+116;2024-08-20;deposito;1500.0;
+115;2024-10-24;retiro;1500.0;
+112;2024-03-19;depósito;1500.0;Compra en tienda
+119;2024-02-11;deposito;0.0;Compra en tienda
+116;2024-07-11;compra;-500.0;
+111;2024-09-26;retiro;-500.0;Compra en tienda
+114;2024-09-23;deposito;-100.0;Ingreso navideño
+113;2024-09-02;depósito;3000.0;Compra en tienda
+113;2024-05-11;compra;2500.0;
+108;2024-11-14;compra;3000.0;
+104;2024-08-30;retiro;-100.0;
+118;2024-04-04;retiro;2000.0;
+116;2024-08-28;deposito;2500.0;
+111;2024-01-18;compra;2500.0;
+103;2024-06-03;compra;-100.0;Ingreso extra
+114;2024-09-01;retiro;2500.0;
+110;2024-11-03;compra;-500.0;Ingreso mensual
+112;2024-01-12;depósito;1500.0;Ingreso extra
+117;2024-07-20;retiro;2500.0;
+110;2024-11-21;retiro;-100.0;
+103;2024-09-13;compra;;
+119;2024-04-11;pago;2000.0;Ingreso extra
+101;2024-01-30;depósito;3000.0;Compra en tienda
+118;2024-04-21;deposito;-500.0;Ingreso navideño
+112;2024-02-08;deposito;-500.0;
+116;2024-07-05;retiro;2000.0;
+115;2024-09-17;compra;2500.0;
+111;2024-10-22;depósito;3000.0;
+111;2024-06-24;compra;1000.0;
+101;2024-06-20;deposito;-100.0;
+104;2024-05-08;deposito;-100.0;
+118;2024-11-08;compra;-500.0;Ingreso navideño
+105;2024-04-26;deposito;-500.0;Ingreso mensual
+111;2024-04-18;compra;-100.0;Ingreso mensual
+105;2024-04-29;compra;-100.0;Ingreso mensual
+110;2024-07-02;pago;2500.0;Compra en tienda
+104;2024-07-28;deposito;-500.0;Ingreso navideño
+114;2024-11-14;deposito;-100.0;Ingreso mensual
+115;2024-04-13;depósito;3000.0;Ingreso extra
+113;2024-11-08;compra;1500.0;
+110;2024-08-03;compra;1000.0;
+110;2024-09-09;retiro;-100.0;Compra en tienda
+103;2024-06-05;depósito;-100.0;Retiro parcial
+109;2024-09-23;retiro;-500.0;Ingreso mensual
+110;2024-03-10;retiro;-100.0;
+105;2024-05-16;deposito;-500.0;Ingreso extra
+103;2024-01-17;compra;-100.0;Compra en tienda
+103;2024-09-28;deposito;-100.0;Ingreso mensual
+119;2024-01-29;deposito;0.0;
+116;2024-02-16;compra;2000.0;
+107;2024-11-27;retiro;2500.0;
+107;2024-12-26;deposito;2000.0;
+114;2024-04-10;depósito;-500.0;Ingreso navideño
+102;2024-09-08;depósito;2000.0;Compra en tienda
+105;2024-09-28;compra;2500.0;
+120;2024-09-15;retiro;-500.0;Compra en tienda
+101;2024-01-09;compra;1500.0;
+108;2024-11-17;retiro;-100.0;
+116;2024-10-15;compra;-100.0;Ingreso navideño
+106;2024-11-11;deposito;-500.0;Ingreso extra
+115;2024-06-24;deposito;-500.0;Ingreso navideño
+108;2024-07-08;retiro;-100.0;Ingreso navideño
+110;2024-08-08;compra;-500.0;Ingreso extra
+110;2024-02-08;compra;;Retiro parcial
+105;2024-09-01;deposito;;Ingreso mensual
+103;2024-09-29;compra;-100.0;
+107;2024-01-24;deposito;-500.0;Ingreso mensual
+112;2024-09-02;compra;1500.0;
+101;2024-06-28;depósito;1500.0;Ingreso extra
+116;2024-06-08;deposito;-500.0;
+119;2024-09-29;deposito;-100.0;Ingreso mensual
+106;2024-10-19;retiro;1500.0;
+107;2024-05-05;deposito;2500.0;
+113;2024-10-09;compra;-500.0;Ingreso extra
+105;2024-02-06;retiro;-100.0;Retiro parcial
+107;2024-10-17;pago;2500.0;
+101;2024-04-03;pago;1500.0;Retiro parcial
+102;2024-07-28;retiro;1000.0;
+116;2024-03-19;compra;-500.0;Ingreso navideño
+101;2024-08-31;deposito;3000.0;
+110;2024-06-06;compra;-100.0;Compra en tienda
+109;2024-07-15;compra;0.0;Compra en tienda
+108;2024-10-12;pago;-100.0;Compra en tienda
+108;2024-12-01;retiro;1000.0;
+106;2024-05-30;depósito;2500.0;Ingreso navideño
+101;2024-01-12;compra;-500.0;
+114;2024-05-18;deposito;;Retiro parcial
+115;2024-01-10;compra;2500.0;
+101;2024-05-25;deposito;-100.0;Ingreso mensual
+114;2024-01-22;depósito;-500.0;Ingreso mensual
+120;2024-02-07;retiro;-100.0;Ingreso mensual
+112;2024-08-11;deposito;;
+101;2024-09-02;depósito;3000.0;Ingreso navideño
+107;2024-02-07;deposito;;Ingreso navideño
+101;2024-09-30;deposito;-500.0;
+106;2024-09-15;deposito;2000.0;
+110;2024-05-26;retiro;3000.0;
+105;2024-09-23;compra;1000.0;
+118;2024-05-20;retiro;;Ingreso mensual
+107;2024-08-29;depósito;-100.0;Retiro parcial
+111;2024-10-29;retiro;2500.0;
+112;2024-06-21;retiro;1500.0;
+107;2024-12-03;compra;-500.0;
+105;2024-04-22;retiro;-500.0;
+107;2024-02-18;pago;2000.0;Compra en tienda
+101;2024-09-01;compra;;
+118;2024-10-27;depósito;2500.0;Compra en tienda
+102;2024-05-30;retiro;3000.0;
+103;2024-04-20;depósito;2000.0;Retiro parcial
+111;2024-08-08;compra;3000.0;
+101;2024-11-24;deposito;-100.0;
+104;2024-06-20;compra;-500.0;Ingreso extra
+109;2024-08-19;retiro;-500.0;Compra en tienda
+101;2024-05-27;deposito;;Ingreso navideño
+108;2024-12-20;depósito;2500.0;Ingreso mensual
+113;2024-05-02;compra;-100.0;Retiro parcial
+105;2024-08-07;deposito;2500.0;
+102;2024-11-29;compra;;Compra en tienda
+108;2024-01-22;depósito;-500.0;
+114;2024-02-21;depósito;1000.0;Compra en tienda
+112;2024-08-30;depósito;-500.0;Retiro parcial
+114;2024-05-17;compra;-100.0;Ingreso extra
+113;2024-02-13;pago;3000.0;Ingreso extra
+105;2024-01-08;compra;-100.0;Ingreso extra
+116;2024-12-18;deposito;;Ingreso navideño
+110;2024-04-03;deposito;-100.0;
+111;2024-02-16;retiro;1500.0;
+117;2024-07-31;compra;1000.0;
+115;2024-10-17;retiro;-100.0;Retiro parcial
+107;2024-04-06;retiro;;Ingreso mensual
+105;2024-10-07;compra;-100.0;Ingreso navideño
+116;2024-09-06;deposito;-100.0;Retiro parcial
+118;2024-04-12;deposito;-100.0;Ingreso extra
+118;2024-12-28;compra;1500.0;
+113;2024-09-03;retiro;3000.0;
+115;2024-01-10;deposito;-1000.0;Retiro parcial
+102;2024-05-11;retiro;2000.0;
+108;2024-02-20;retiro;-100.0;Compra en tienda
+107;2024-12-21;compra;1500.0;
+102;2024-12-17;deposito;-100.0;Compra en tienda
+115;2024-04-30;compra;2500.0;
+114;2024-11-17;compra;-100.0;Compra en tienda
+117;2024-07-20;compra;-500.0;Compra en tienda
+111;2024-03-11;depósito;-500.0;Ingreso extra
+116;2024-05-14;compra;3000.0;
+120;2024-08-12;retiro;-500.0;
+116;2024-07-28;compra;-1000.0;Ingreso navideño
+115;2024-02-09;compra;0.0;
+111;2024-04-27;deposito;-100.0;Compra en tienda
+104;2024-08-10;deposito;-500.0;Ingreso navideño
+117;2024-04-19;retiro;;Retiro parcial
+107;2024-01-15;deposito;-100.0;Ingreso navideño
+114;2024-02-19;deposito;-500.0;
+110;2024-09-10;deposito;2500.0;
+119;2024-06-04;compra;3000.0;
+105;2024-01-11;pago;2500.0;Retiro parcial
+119;2024-10-27;deposito;2500.0;
+102;2024-07-16;deposito;-500.0;Ingreso navideño
+115;2024-01-05;compra;1500.0;
+113;2024-11-13;pago;2000.0;Ingreso extra
+111;2024-12-27;compra;-500.0;Ingreso mensual
+120;2024-11-02;depósito;3000.0;Ingreso extra
+115;2024-12-01;pago;-100.0;Ingreso mensual
+102;2024-02-09;compra;-100.0;
+116;2024-07-16;retiro;3000.0;
+111;2024-03-07;deposito;;Ingreso mensual
+114;2024-05-30;compra;2000.0;
+113;2024-01-11;compra;-100.0;
+109;2024-03-22;depósito;1500.0;Compra en tienda
+113;2024-11-07;compra;-500.0;Ingreso navideño
+105;2024-02-11;pago;1500.0;Retiro parcial
+111;2024-06-20;compra;-100.0;Ingreso navideño
+112;2024-11-13;deposito;-500.0;
+111;2024-12-11;pago;1500.0;Ingreso mensual
+112;2024-12-27;retiro;-1000.0;Ingreso navideño
+106;2024-04-23;compra;-500.0;Ingreso extra
+119;2024-12-15;deposito;1500.0;
+110;2024-04-12;depósito;3000.0;Compra en tienda
+104;2024-10-23;compra;-100.0;
+112;2024-12-20;retiro;-500.0;Retiro parcial
+119;2024-02-17;deposito;2500.0;
+118;2024-04-28;deposito;-100.0;
+117;2024-10-28;deposito;-100.0;
+118;2024-05-20;pago;2000.0;
+101;2024-03-15;retiro;-500.0;Retiro parcial
+103;2024-07-10;deposito;2000.0;
+104;2024-09-05;compra;-100.0;Compra en tienda
+107;2024-12-25;deposito;0.0;Ingreso navideño
+101;2024-03-15;retiro;-500.0;Retiro parcial
+104;2024-09-05;compra;-100.0;Compra en tienda
+107;2024-12-25;deposito;0.0;Ingreso navideño
